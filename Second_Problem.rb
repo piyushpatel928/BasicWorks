@@ -9,6 +9,16 @@ for i in 0..10
 	
 	$a=$b	
 	$b=$c
-	$c=$a + $b	
+	$c=$a + $b
+	
+	
+	if $c <= 4000000	
+		
+	if $c % 2 == 0 	
+		$sum =$sum + $c
+		
+	end
 	puts $c
 end
+end
+puts "Final Sum:= #$sum"
